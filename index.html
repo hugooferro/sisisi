@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Bar Restaurante Mesón Parry en C. Cazorla, 10, Pinos Puente, Granada. Cocina española, terraza, buena comida y ambiente cercano.">
+  <meta name="description" content="Descubre la carta, la terraza y cómo llegar al Bar Restaurante Mesón Parry, en C. Cazorla, 10, Pinos Puente, Granada.">
   <meta name="keywords" content="Bar Restaurante Mesón Parry, restaurante en Pinos Puente, bar restaurante Granada, cocina española Pinos Puente, Mesón Parry">
-  <meta name="theme-color" content="#183d3d">
+  <meta name="theme-color" content="#171b18">
   <meta property="og:title" content="Bar Restaurante Mesón Parry | Pinos Puente, Granada">
-  <meta property="og:description" content="Un restaurante local con ambiente cercano, buena comida y cocina española en Pinos Puente.">
+  <meta property="og:description" content="Cocina española, platos para compartir y terraza en C. Cazorla, 10, Pinos Puente.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="fachada-parry.jpg">
+  <meta property="og:image" content="mesa-4.jpg">
   <title>Bar Restaurante Mesón Parry | Pinos Puente, Granada</title>
   <script type="application/ld+json">
     {
@@ -25,13 +25,7 @@
         "addressCountry": "ES"
       },
       "telephone": "+34607730571",
-      "servesCuisine": "Cocina española",
-      "priceRange": "€€",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "bestRating": "5"
-      }
+      "servesCuisine": "Cocina española"
     }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,26 +33,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f7f2ea;
-      --paper: #fffdf9;
-      --cream: #f2eadc;
-      --forest: #163d3a;
-      --forest-2: #214f4d;
-      --sage: #43645d;
-      --gold: #c9984d;
-      --gold-soft: #e8c38c;
-      --terracotta: #b86d4c;
-      --text: #1d2a28;
-      --muted: #5d6a67;
-      --line: rgba(24, 61, 61, 0.12);
+      --bg: #f3f0e9;
+      --paper: #faf9f6;
+      --cream: #e9e5dc;
+      --forest: #202923;
+      --forest-2: #334239;
+      --sage: #657365;
+      --gold: #c84d37;
+      --gold-soft: #f1b7a2;
+      --terracotta: #a94332;
+      --text: #20231f;
+      --muted: #62665f;
+      --line: rgba(32, 41, 35, 0.16);
       --white: #ffffff;
-      --shadow-soft: 0 20px 55px rgba(13, 31, 28, 0.12);
-      --shadow-card: 0 20px 60px rgba(17, 44, 42, 0.1);
-      --radius-xl: 32px;
-      --radius-lg: 20px;
-      --radius-md: 14px;
-      --container: min(1180px, calc(100% - 32px));
-      --transition: 260ms ease;
+      --shadow-soft: 0 24px 64px rgba(24, 29, 25, 0.14);
+      --shadow-card: 0 14px 36px rgba(24, 29, 25, 0.08);
+      --radius-xl: 4px;
+      --radius-lg: 3px;
+      --radius-md: 2px;
+      --container: min(1280px, calc(100% - 48px));
+      --transition: 240ms ease;
     }
 
     * { box-sizing: border-box; }
@@ -756,79 +750,6 @@
       letter-spacing: -0.04em;
     }
 
-    .reviews-section {
-      background: var(--bg);
-    }
-
-    .rating-wrap {
-      display: grid;
-      grid-template-columns: 0.85fr 1.15fr;
-      gap: 1.25rem;
-      align-items: stretch;
-    }
-
-    .rating-panel {
-      background: linear-gradient(180deg, var(--forest) 0%, #1b4f4b 100%);
-      color: var(--white);
-      border-radius: var(--radius-xl);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      min-height: 260px;
-      padding: 2.2rem 1.5rem;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .rating-value {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(4.2rem, 8vw, 6rem);
-      line-height: 0.9;
-      letter-spacing: -0.04em;
-      margin-bottom: 0.7rem;
-    }
-
-    .rating-stars {
-      letter-spacing: 0.3rem;
-      color: var(--gold-soft);
-      font-size: 1.25rem;
-      margin-bottom: 0.35rem;
-    }
-
-    .rating-label {
-      font-size: 0.78rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.7);
-    }
-
-    .review-card {
-      background: rgba(255,255,255,0.6);
-      border: 1px solid rgba(24,61,61,0.08);
-      border-radius: var(--radius-xl);
-      padding: clamp(1.5rem, 3vw, 2.2rem);
-      display: grid;
-      align-content: center;
-      gap: 1.1rem;
-    }
-
-    .review-card p {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1.8rem, 3vw, 2.8rem);
-      color: var(--forest);
-      line-height: 1;
-      letter-spacing: -0.04em;
-    }
-
-    .review-card small {
-      color: var(--muted);
-      font-size: 0.8rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      font-weight: 800;
-    }
-
     .contact-section {
       background: var(--paper);
     }
@@ -1083,164 +1004,6 @@
       cursor: pointer;
     }
 
-    body.welcome-visible {
-      overflow: hidden;
-    }
-
-    .welcome-screen {
-      position: fixed;
-      inset: 0;
-      z-index: 100;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      isolation: isolate;
-      overflow: hidden;
-      background: #101d1c;
-      transition: opacity 850ms ease, transform 850ms ease, visibility 0s linear 850ms;
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
-    }
-
-    .welcome-screen::before,
-    .welcome-screen::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
-    }
-
-    .welcome-screen::before {
-      inset: -20px;
-      z-index: 0;
-      background: url('portada.webp') center center / cover no-repeat;
-      filter: blur(12px) brightness(0.38);
-      opacity: 0.42;
-      transform: scale(1.035);
-      animation: welcomeKenBurns 32s ease-in-out infinite alternate;
-      will-change: transform;
-    }
-
-    .welcome-screen::after {
-      z-index: 2;
-      background:
-        radial-gradient(ellipse at 50% 42%, rgba(20,31,29,0.2), rgba(8,17,18,0.55) 72%),
-        linear-gradient(180deg, rgba(8,17,18,0.36), rgba(8,17,18,0.62));
-    }
-
-    .welcome-screen__photo {
-      position: absolute;
-      inset: 0;
-      z-index: 1;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      background: transparent;
-      filter: drop-shadow(0 16px 42px rgba(0,0,0,0.32));
-      pointer-events: none;
-    }
-
-    .welcome-screen.is-hidden {
-      opacity: 0;
-      visibility: hidden;
-      transform: scale(1.02);
-      pointer-events: none;
-    }
-
-    .welcome-screen.is-hidden::before {
-      animation-play-state: paused;
-    }
-
-    .welcome-screen__inner {
-      position: relative;
-      z-index: 3;
-      text-align: center;
-      color: var(--white);
-      padding: 2rem;
-      max-width: 760px;
-      width: 100%;
-    }
-
-    .welcome-screen__inner::before {
-      content: "";
-      display: block;
-      width: 54px;
-      height: 1px;
-      margin: 0 auto 1.3rem;
-      background: var(--gold-soft);
-      opacity: 0;
-      animation: welcomeFadeUp 0.8s ease 0.08s forwards;
-    }
-
-    .welcome-screen h1 {
-      font-size: clamp(3.2rem, 7vw, 6.4rem);
-      line-height: 0.9;
-      letter-spacing: -0.05em;
-      font-family: 'Cormorant Garamond', serif;
-      margin: 0;
-      opacity: 0;
-      transform: translateY(18px);
-      animation: welcomeFadeUp 0.8s ease 0.18s forwards;
-    }
-
-    .welcome-screen__place {
-      margin-top: 0.8rem;
-      font-size: clamp(1.1rem, 2vw, 1.6rem);
-      color: rgba(255,255,255,0.82);
-      letter-spacing: 0.02em;
-      opacity: 0;
-      transform: translateY(18px);
-      animation: welcomeFadeUp 0.8s ease 0.26s forwards;
-    }
-
-    .welcome-screen__tag {
-      margin-top: 0.25rem;
-      font-size: clamp(0.9rem, 1.7vw, 1.2rem);
-      color: rgba(255,255,255,0.76);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      opacity: 0;
-      transform: translateY(18px);
-      animation: welcomeFadeUp 0.8s ease 0.34s forwards;
-    }
-
-    .welcome-screen__tag::after {
-      content: "";
-      display: block;
-      width: 38px;
-      height: 1px;
-      margin: 1.15rem auto 0;
-      background: rgba(232,195,140,0.72);
-    }
-
-    .welcome-screen .btn {
-      margin-top: 2rem;
-      opacity: 0;
-      transform: translateY(18px);
-      animation: welcomeFadeUp 0.8s ease 0.48s forwards;
-      min-width: min(240px, 100%);
-    }
-
-    @media (min-width: 901px) {
-      .welcome-screen__photo {
-        object-fit: contain;
-        transform: scale(1.28);
-      }
-    }
-
-    @keyframes welcomeKenBurns {
-      from { transform: scale(1.035); }
-      to { transform: scale(1.105); }
-    }
-
-    @keyframes welcomeFadeUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
     @keyframes fadeUp {
       to {
         opacity: 1;
@@ -1322,14 +1085,6 @@
     }
 
     @media (max-width: 560px) {
-      .welcome-screen__inner {
-        padding: 1.5rem;
-      }
-
-      .welcome-screen .btn {
-        width: auto;
-      }
-
       .hero-inner {
         padding-top: 120px;
       }
@@ -1378,28 +1133,243 @@
         transition-duration: 0.01ms !important;
       }
 
-      .welcome-screen {
-        transition: none;
-      }
+    }
 
-      .welcome-screen::before {
-        animation: none !important;
-        transform: none;
+    *, *::before, *::after { letter-spacing: 0 !important; }
+
+    .container { width: var(--container); }
+
+    h2 { font-size: 3.75rem; line-height: 0.98; }
+    h3 { font-size: 2.15rem; line-height: 1; }
+
+    .btn {
+      min-height: 50px;
+      padding: 0.85rem 1.25rem;
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+    }
+
+    .btn:hover,
+    .btn:focus-visible { transform: translateY(-2px); box-shadow: none; }
+    .btn:active { transform: translateY(0); }
+    .btn::before { display: none; }
+    .btn--dark { background: var(--forest); }
+    .btn--ghost { border-color: var(--forest); }
+
+    .site-header.is-scrolled { background: rgba(25, 30, 26, 0.94); }
+    .brand { font-size: 1.55rem; }
+    .brand-mark { border-radius: 0; width: 32px; height: 32px; }
+    .nav { min-height: 86px; }
+    .nav-links { gap: 1.35rem; }
+    .nav-toggle { font-size: 1.5rem; }
+
+    .hero {
+      min-height: 760px;
+      min-height: max(700px, 100svh);
+      background: #202923;
+    }
+
+    .hero__image {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 56%;
+      animation: hero-appear 1.1s ease-out both;
+    }
+
+    .hero::before {
+      inset: 0;
+      height: auto;
+      background: linear-gradient(90deg, rgba(16, 20, 17, 0.82) 0%, rgba(16, 20, 17, 0.62) 44%, rgba(16, 20, 17, 0.08) 100%);
+    }
+
+    .hero::after {
+      background: linear-gradient(0deg, rgba(13, 17, 14, 0.44), transparent 40%);
+    }
+
+    .hero-inner { max-width: 820px; padding-top: 150px; padding-bottom: 100px; }
+    .hero__eyebrow { font-size: 0.78rem; }
+    .hero h1 { font-size: 7rem; line-height: 0.9; max-width: 760px; }
+    .hero-copy { font-size: 1.15rem; max-width: 520px; }
+    .hero-meta { font-size: 0.77rem; }
+    .scroll-indicator { bottom: 28px; }
+
+    .section { padding: 7rem 0; }
+    .intro { background: var(--bg); }
+    .intro-quote { border-color: var(--gold); }
+    .intro-quote span { font-size: 4.2rem; line-height: 0.94; }
+    .intro-copy p,
+    .about-copy .lede,
+    .experience-box__content p { font-size: 1.03rem; }
+    .about { background: var(--paper); }
+    .about-visual { padding: 0 1rem 0 0; }
+    .about-visual .photo-main { border-radius: 0; box-shadow: none; height: 560px; }
+    .about-visual .photo-main img { object-position: center 54%; }
+    .about-visual .photo-card {
+      right: -1rem;
+      bottom: -1rem;
+      border-radius: 0;
+      background: var(--paper);
+      backdrop-filter: none;
+      box-shadow: none;
+      border: 0;
+      border-left: 2px solid var(--gold);
+    }
+    .about-copy { gap: 1.1rem; }
+    .about-signature { border-color: var(--gold); }
+
+    .heading-row { margin-bottom: 2.4rem; }
+    .heading-row p { max-width: 400px; }
+    .menu-grid { column-gap: 2.4rem; row-gap: 1.1rem; }
+    .menu-card {
+      padding: 1.4rem 0 0.8rem;
+      border: 0;
+      border-top: 1px solid var(--line);
+      border-radius: 0;
+      background: transparent;
+      transition: border-color var(--transition);
+    }
+    .menu-card:hover { transform: none; box-shadow: none; background: transparent; border-color: var(--gold); }
+    .menu-card__index { color: var(--terracotta); }
+    .menu-card h3 { color: var(--text); }
+    .menu-list li::before { border-radius: 0; background: var(--gold); }
+    .menu-note { font-size: 0.78rem; }
+
+    .gallery-band { background: var(--forest); }
+    .gallery-band .section-kicker { color: var(--gold-soft); }
+    .gallery-grid {
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      grid-auto-rows: 76px;
+      gap: 12px;
+    }
+    .gallery-item {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      background: var(--forest-2);
+      cursor: zoom-in;
+    }
+    .gallery-item:nth-child(1) { grid-column: 1 / 7; grid-row: 1 / 7; }
+    .gallery-item:nth-child(2) { grid-column: 7 / 10; grid-row: 1 / 4; }
+    .gallery-item:nth-child(3) { grid-column: 10 / 13; grid-row: 1 / 4; }
+    .gallery-item:nth-child(4) { grid-column: 7 / 10; grid-row: 4 / 7; }
+    .gallery-item:nth-child(5) { grid-column: 10 / 13; grid-row: 4 / 7; }
+    .gallery-item:nth-child(1) img { object-position: center 54%; }
+    .gallery-item:nth-child(2) img { object-position: center 46%; }
+    .gallery-item:nth-child(3) img { object-position: center 55%; }
+    .gallery-item:nth-child(4) img { object-position: center 52%; }
+    .gallery-item:nth-child(5) img { object-position: center 48%; }
+    .gallery-item::after { background: linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.18)); }
+    .gallery-item:hover img,
+    .gallery-item:focus-visible img { transform: scale(1.035); }
+
+    .experience { background: var(--bg); }
+    .experience-box {
+      padding: 0;
+      gap: 3rem;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+    .experience-pillar { border-left: 1px solid var(--gold); padding: 1rem 0 1rem 2rem; }
+    .experience-pillar .tag { padding: 0; border: 0; border-radius: 0; background: transparent; color: var(--terracotta); }
+    .experience-pillar strong { font-size: 3.8rem; }
+
+    .contact-icon { width: 36px; height: 36px; border-radius: 0; background: var(--bg); }
+    .map-wrap,
+    .map-wrap iframe { border-radius: 0; box-shadow: none; }
+    .map-wrap { border: 0; }
+    .map-pin { border-radius: 0; }
+    .contact-actions { gap: 0.55rem; }
+    .cta-band { background: var(--forest); }
+    .cta-band .section-kicker { color: var(--gold-soft) !important; }
+    .footer { background: #171b18; }
+    .wa-float { border-radius: 50%; }
+
+    .lightbox { padding: 1rem; }
+    .lightbox__inner { border-radius: 0; box-shadow: none; }
+    .lightbox__close { border-radius: 0; }
+
+    @keyframes hero-appear {
+      from { opacity: 0.72; transform: scale(1.025); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @media (max-width: 900px) {
+      h2 { font-size: 3.25rem; }
+      .hero h1 { font-size: 5.5rem; }
+      .hero { min-height: max(680px, 92svh); }
+      .gallery-grid { grid-auto-rows: 64px; }
+      .gallery-item:nth-child(1) { grid-column: 1 / 7; grid-row: 1 / 7; }
+      .gallery-item:nth-child(2) { grid-column: 7 / 13; grid-row: 1 / 4; }
+      .gallery-item:nth-child(3) { grid-column: 7 / 10; grid-row: 4 / 7; }
+      .gallery-item:nth-child(4) { grid-column: 10 / 13; grid-row: 4 / 7; }
+      .gallery-item:nth-child(5) { grid-column: 1 / 13; grid-row: 7 / 10; }
+      .about-visual .photo-main { height: 500px; }
+    }
+
+    @media (max-width: 720px) {
+      :root { --container: min(540px, calc(100% - 36px)); }
+      .nav { min-height: 72px; }
+      .nav-links {
+        padding: 0.6rem 1.1rem 1rem;
+        background: rgba(25, 30, 26, 0.97);
       }
+      .nav-links a { min-height: 44px; }
+      .hero::before { background: linear-gradient(90deg, rgba(16, 20, 17, 0.8), rgba(16, 20, 17, 0.3)); }
+      .hero-inner { padding-top: 130px; padding-bottom: 90px; }
+      .hero h1 { font-size: 4.5rem; }
+      .hero-copy { font-size: 1.05rem; }
+      .hero-meta { flex-wrap: wrap; }
+      .section { padding: 5.25rem 0; }
+      .intro-grid { gap: 1.5rem; }
+      .intro-quote { padding-top: 1.3rem; }
+      .intro-quote span { font-size: 3.4rem; }
+      .about-visual { padding-right: 0.8rem; }
+      .about-visual .photo-main { height: 430px; }
+      .about-visual .photo-card { right: -0.8rem; bottom: -1.2rem; }
+      .experience-pillar { padding-left: 1.2rem; }
+      .experience-pillar strong { font-size: 3.2rem; }
+      .gallery-grid { grid-auto-rows: 56px; gap: 8px; }
+    }
+
+    @media (max-width: 560px) {
+      h2 { font-size: 2.75rem; }
+      h3 { font-size: 1.9rem; }
+      .hero { min-height: max(680px, 92svh); }
+      .hero h1 { font-size: 3.8rem; }
+      .hero-actions { max-width: 340px; }
+      .hero-actions .btn { width: auto; }
+      .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 165px; }
+      .gallery-item:nth-child(1) { grid-column: 1 / 3; grid-row: auto; height: 250px; }
+      .gallery-item:nth-child(2) { grid-column: 1 / 2; grid-row: auto; }
+      .gallery-item:nth-child(3) { grid-column: 2 / 3; grid-row: auto; }
+      .gallery-item:nth-child(4) { grid-column: 1 / 2; grid-row: auto; }
+      .gallery-item:nth-child(5) { grid-column: 2 / 3; grid-row: auto; }
+      .about-visual .photo-main { height: 360px; }
+      .about-visual .photo-card { width: min(68%, 250px); }
+      .contact-actions .btn { width: 100%; }
+      .map-wrap,
+      .map-wrap iframe { min-height: 360px; }
+      .footer-inner { align-items: flex-start; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hero__image { animation: none; }
     }
   </style>
 </head>
-<body class="welcome-visible">
-  <div class="welcome-screen" id="welcomeScreen" role="dialog" aria-modal="true" aria-label="Bienvenido a Mesón Parry" aria-hidden="false">
-    <img class="welcome-screen__photo" src="portada.webp" alt="" aria-hidden="true">
-    <div class="welcome-screen__inner">
-      <h1>MESÓN PARRY</h1>
-      <div class="welcome-screen__place">Pinos Puente · Granada</div>
-      <div class="welcome-screen__tag">Bar Restaurante</div>
-      <button class="btn btn--light" id="enterSite" type="button" aria-label="Entrar en la web">ENTRAR EN LA WEB <span aria-hidden="true">→</span></button>
-    </div>
-  </div>
-
+<body>
   <header class="site-header" id="siteHeader">
     <div class="container nav">
       <a class="brand" href="#inicio" aria-label="Mesón Parry inicio">
@@ -1407,14 +1377,13 @@
         <span>Mesón Parry</span>
       </a>
 
-      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primaryNav">☰</button>
 
-      <nav class="nav-links" aria-label="Navegación principal">
+      <nav class="nav-links" id="primaryNav" aria-label="Navegación principal">
         <a href="#inicio">Inicio</a>
         <a href="#carta">Carta</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#galeria">Galería</a>
-        <a href="#opiniones">Opiniones</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </div>
@@ -1422,15 +1391,16 @@
 
   <main>
     <section class="hero" id="inicio" aria-label="Portada del restaurante">
+      <img class="hero__image" src="mesa-4.jpg" alt="Huevos rotos con jamón, una de las especialidades de la casa" fetchpriority="high">
       <div class="container hero-inner">
-        <span class="hero__eyebrow">Pinos Puente · Granada</span>
+        <span class="hero__eyebrow">Cocina española · Pinos Puente</span>
         <h1>Mesón Parry</h1>
-        <p class="hero-copy">Un restaurante local que sabe convertir una mesa en un buen momento: cocina española, trato cercano y ambiente auténtico.</p>
+        <p class="hero-copy">Platos para compartir, cocina española y una mesa abierta en Pinos Puente.</p>
         <div class="hero-actions">
-          <a class="btn" href="#carta" aria-label="Ver la carta del restaurante">Ver carta <span aria-hidden="true">↗</span></a>
+          <a class="btn" href="#carta" aria-label="Descubrir la carta del restaurante">Descubrir la carta <span aria-hidden="true">↗</span></a>
           <a class="btn btn--light" href="https://www.google.com/maps/search/?api=1&query=Bar+Restaurante+Mes%C3%B3n+Parry%2C+C.+Cazorla+10%2C+Pinos+Puente%2C+Granada" target="_blank" rel="noopener" aria-label="Cómo llegar al restaurante">Cómo llegar <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="hero-meta">Bar Restaurante Mesón Parry</div>
+        <div class="hero-meta">C. Cazorla, 10 <span aria-hidden="true">·</span> 18240 Pinos Puente</div>
       </div>
 
       <div class="scroll-indicator" aria-hidden="true">
@@ -1446,9 +1416,8 @@
         </div>
 
         <div class="intro-copy">
-          <span class="section-kicker">Mesón Parry</span>
-          <p>Bar Restaurante Mesón Parry ofrece un espacio de encuentro pensado para disfrutar de la cocina española con calma, buena mesa y un trato cercano. El ambiente es informal y acogedor, perfecto para desayunos, almuerzos, cenas y momentos compartidos.</p>
-          <p>El restaurante se mantiene fiel a su esencia local, apostando por una experiencia cercana donde cada detalle parece pensado para que la gente vuelva a sentarse, conversar y disfrutar de la buena comida.</p>
+          <span class="section-kicker">En Pinos Puente</span>
+          <p>Una carta de cocina española para pedir al centro, compartir y alargar la sobremesa. Mesón Parry está en la calle Cazorla, con terraza y platos que van de los caracoles y las croquetas a los huevos rotos.</p>
         </div>
       </div>
     </section>
@@ -1460,17 +1429,16 @@
             <img src="terraza-parry.jpg" alt="Terraza del restaurante Mesón Parry con mesas y ambiente exterior">
           </div>
           <div class="photo-card" aria-label="Detalle del restaurante">
-            <div class="small-label">Terraza</div>
-            <strong>Un lugar<br>para quedarse.</strong>
+            <div class="small-label">Pinos Puente · Granada</div>
+            <strong>La terraza<br>de Mesón Parry.</strong>
           </div>
         </div>
 
         <div class="about-copy">
           <span class="section-kicker">Sobre nosotros</span>
-          <h2>La autenticidad en la mesa.</h2>
-          <p class="lede">Bar Restaurante Mesón Parry es un restaurante cercano y de ambiente informal, pensado para disfrutar de la cocina española en compañía de quien más quieres.</p>
-          <p>En el local se combina la comodidad de un bar con la esencia de un restaurante de barrio, con una terraza que invita a pasar un buen rato y una carta pensada para compartir.</p>
-          <p>La experiencia va desde el desayuno hasta la cena, con atención cercana y un ambiente que se siente familiar desde el primer momento.</p>
+          <h2>Cocina de aquí,<br>mesa compartida.</h2>
+          <p class="lede">Una dirección local para disfrutar de recetas españolas, raciones al centro y una terraza al aire libre.</p>
+          <p>En la carta conviven clásicos para compartir, carnes, pescado frito y ensaladas. Consulta en el local la disponibilidad y los precios.</p>
 
           <div class="about-signature">
             <div class="sig">Mesón Parry</div>
@@ -1486,7 +1454,7 @@
             <span class="section-kicker">Carta</span>
             <h2>Nuestra carta</h2>
           </div>
-          <p>Platos de la carta del restaurante, con una presentación elegante y clara para que cada categoría se sienta especial.</p>
+          <p>Una selección de platos de la casa, organizada para elegir sin prisa y compartir en la mesa.</p>
         </div>
 
         <div class="menu-grid reveal">
@@ -1544,25 +1512,25 @@
             <span class="section-kicker">Galería</span>
             <h2>Un vistazo a la mesa.</h2>
           </div>
-          <p>Imágenes del restaurante y de sus platos, capturadas con una mirada cercana y elegante.</p>
+          <p>La terraza, la mesa y algunos platos de la carta.</p>
         </div>
 
         <div class="gallery-grid reveal" aria-label="Galería de imágenes del restaurante">
-          <figure class="gallery-item" tabindex="0" data-image="mesa-1.jpg" data-alt="Plato servido en la mesa del restaurante">
-            <img src="mesa-1.jpg" alt="Plato servido en la mesa del restaurante" loading="lazy" decoding="async">
-          </figure>
-          <figure class="gallery-item" tabindex="0" data-image="mesa-2.jpg" data-alt="Comedor del restaurante con mesas preparadas">
-            <img src="mesa-2.jpg" alt="Comedor del restaurante con mesas preparadas" loading="lazy" decoding="async">
-          </figure>
-          <figure class="gallery-item" tabindex="0" data-image="mesa-3.jpg" data-alt="Plato con habas y jamón recogido en el restaurante">
-            <img src="mesa-3.jpg" alt="Plato con habas y jamón recogido en el restaurante" loading="lazy" decoding="async">
-          </figure>
-          <figure class="gallery-item" tabindex="0" data-image="mesa-4.jpg" data-alt="Huevos rotos servidos en la mesa del restaurante">
-            <img src="mesa-4.jpg" alt="Huevos rotos servidos en la mesa del restaurante" loading="lazy" decoding="async">
-          </figure>
-          <figure class="gallery-item" tabindex="0" data-image="mesa-5.jpg" data-alt="Detalle de postres en la mesa del restaurante">
-            <img src="mesa-5.jpg" alt="Detalle de postres en la mesa del restaurante" loading="lazy" decoding="async">
-          </figure>
+          <button class="gallery-item" type="button" data-image="fachada-parry.jpg" data-alt="Fachada amarilla del Bar Restaurante Mesón Parry en Pinos Puente">
+            <img src="fachada-parry.jpg" alt="Fachada del Bar Restaurante Mesón Parry" loading="lazy" decoding="async">
+          </button>
+          <button class="gallery-item" type="button" data-image="mesa-1.jpg" data-alt="Caracoles guisados servidos en cazuela de barro">
+            <img src="mesa-1.jpg" alt="Caracoles guisados en cazuela de barro" loading="lazy" decoding="async">
+          </button>
+          <button class="gallery-item" type="button" data-image="mesa-2.jpg" data-alt="Arroz servido junto a una cerveza en una mesa del restaurante">
+            <img src="mesa-2.jpg" alt="Arroz y cerveza servidos en la mesa" loading="lazy" decoding="async">
+          </button>
+          <button class="gallery-item" type="button" data-image="mesa-3.jpg" data-alt="Habas salteadas con jamón servidas en plato blanco">
+            <img src="mesa-3.jpg" alt="Habas con jamón" loading="lazy" decoding="async">
+          </button>
+          <button class="gallery-item" type="button" data-image="mesa-5.jpg" data-alt="Tarta de chocolate y tarta de manzana con nata">
+            <img src="mesa-5.jpg" alt="Tartas de chocolate y manzana con nata" loading="lazy" decoding="async">
+          </button>
         </div>
       </div>
     </section>
@@ -1571,42 +1539,15 @@
       <div class="container">
         <div class="experience-box reveal">
           <div class="experience-box__content">
-            <span class="section-kicker">Experiencia</span>
-            <h2>La buena cocina nunca está de más.</h2>
-            <p>En Mesón Parry buscamos que la experiencia sea sencilla y acogedora: una mesa bien puesta, buen producto y un local pensado para compartir momentos sin prisa.</p>
-            <p>Se trata de una propuesta cercana, natural y auténtica, donde la atención y el ambiente hacen que cada visita se recuerde con ganas de volver.</p>
+            <span class="section-kicker">Para compartir</span>
+            <h2>Una carta que invita al centro.</h2>
+            <p>Croquetas, caracoles, torreznos y calamares abren la mesa. Después, flamenquín, carne en salsa o pescado frito: platos de cocina española para elegir a gusto.</p>
           </div>
 
           <div class="experience-pillar">
-            <span class="tag">Desde la primera visita</span>
-            <strong>Un lugar para disfrutar.</strong>
-            <p>Una experiencia cercana, cálida y genuina, con la esencia de un restaurante que transmite confianza desde el primer momento.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section reviews-section" id="opiniones" aria-label="Opiniones de clientes">
-      <div class="container">
-        <div class="heading-row reveal">
-          <div>
-            <span class="section-kicker">Opiniones</span>
-            <h2>4,9 de valoración</h2>
-          </div>
-          <p>Descubre las opiniones de quienes ya han disfrutado de Mesón Parry.</p>
-        </div>
-
-        <div class="rating-wrap reveal">
-          <div class="rating-panel" aria-label="Valoración media de clientes: 4,9 sobre 5 estrellas">
-            <div class="rating-value">4,9</div>
-            <div class="rating-stars" aria-hidden="true">★★★★★</div>
-            <div class="rating-label">Valoración de clientes</div>
-          </div>
-
-          <div class="review-card">
-            <small>Google</small>
-            <p>Consulta las opiniones de nuestros clientes y descubre por qué Mesón Parry es un lugar de referencia en Pinos Puente.</p>
-            <a class="btn btn--dark" href="https://www.google.com/search?q=Bar+Restaurante+Mes%C3%B3n+Parry+Pinos+Puente" target="_blank" rel="noopener" aria-label="Ver opiniones de clientes en Google">Ver opiniones en Google <span aria-hidden="true">↗</span></a>
+            <span class="tag">Mesón Parry</span>
+            <strong>En Pinos<br>Puente.</strong>
+            <p>C. Cazorla, 10 · 18240 Pinos Puente</p>
           </div>
         </div>
       </div>
@@ -1617,7 +1558,7 @@
         <div class="contact-copy">
           <div>
             <span class="section-kicker">Contacto</span>
-            <h2>Tu próxima mesa está en Pinos Puente.</h2>
+            <h2>Encuéntranos<br>en Pinos Puente.</h2>
           </div>
 
           <div class="contact-list">
@@ -1666,9 +1607,9 @@
     <section class="cta-band" aria-label="Cierre promocional">
       <div class="container cta-inner">
         <div class="cta-text">
-          <span class="section-kicker" style="color: rgba(255,255,255,0.8);">Esta es la idea</span>
-          <h2>¿Te apetece venir?</h2>
-          <p>Cuando el hambre pide algo sencillo, bueno y cercano, la mejor elección suele ser la que te hace volver.</p>
+          <span class="section-kicker" style="color: rgba(255,255,255,0.8);">Mesón Parry · Pinos Puente</span>
+          <h2>Nos vemos a la mesa.</h2>
+          <p>Llama para consultar disponibilidad y hacer tu reserva.</p>
         </div>
 
         <a class="btn btn--light" href="tel:+34607730571" aria-label="Reservar mesa por teléfono">Reservar mesa <span aria-hidden="true">↗</span></a>
@@ -1689,9 +1630,9 @@
     </svg>
   </a>
 
-  <div class="lightbox" aria-hidden="true">
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Fotografía ampliada" aria-hidden="true">
     <div class="lightbox__inner">
-      <button class="lightbox__close" aria-label="Cerrar vista ampliada">×</button>
+      <button class="lightbox__close" type="button" aria-label="Cerrar vista ampliada">×</button>
       <img src="" alt="">
     </div>
   </div>
@@ -1705,52 +1646,6 @@
     const lightbox = document.querySelector('.lightbox');
     const lightboxImg = lightbox.querySelector('img');
     const closeLightbox = document.querySelector('.lightbox__close');
-    const welcomeScreen = document.getElementById('welcomeScreen');
-    const enterSiteBtn = document.getElementById('enterSite');
-
-    const lockBody = () => {
-      document.body.classList.add('welcome-visible');
-    };
-
-    const unlockBody = () => {
-      document.body.classList.remove('welcome-visible');
-    };
-
-    lockBody();
-
-    const hideWelcome = () => {
-      if (welcomeScreen.classList.contains('is-hidden')) return;
-
-      let welcomeFinished = false;
-      let welcomeFallback;
-      const finishWelcome = () => {
-        if (welcomeFinished) return;
-        welcomeFinished = true;
-        window.clearTimeout(welcomeFallback);
-        welcomeScreen.removeEventListener('transitionend', onWelcomeTransitionEnd);
-        unlockBody();
-        welcomeScreen.setAttribute('aria-hidden', 'true');
-      };
-
-      const onWelcomeTransitionEnd = (event) => {
-        if (event.target === welcomeScreen && event.propertyName === 'opacity') {
-          finishWelcome();
-        }
-      };
-
-      welcomeScreen.addEventListener('transitionend', onWelcomeTransitionEnd);
-      welcomeScreen.classList.add('is-hidden');
-      window.scrollTo({ top: 0, behavior: 'auto' });
-
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        finishWelcome();
-      } else {
-        welcomeFallback = window.setTimeout(finishWelcome, 900);
-      }
-    };
-
-    enterSiteBtn.addEventListener('click', hideWelcome);
-
     const updateHeader = () => {
       if (window.scrollY > 30) {
         header.classList.add('is-scrolled');
@@ -1794,12 +1689,16 @@
     }
 
     const openLightbox = (src, alt) => {
+      lastFocusedElement = document.activeElement;
       lightboxImg.src = src;
       lightboxImg.alt = alt;
       lightbox.classList.add('open');
       lightbox.setAttribute('aria-hidden', 'false');
       document.body.style.overflow = 'hidden';
+      window.setTimeout(() => closeLightbox.focus({ preventScroll: true }), 0);
     };
+
+    let lastFocusedElement;
 
     const closeModal = () => {
       lightbox.classList.remove('open');
@@ -1807,6 +1706,7 @@
       document.body.style.overflow = '';
       lightboxImg.src = '';
       lightboxImg.alt = '';
+      if (lastFocusedElement) lastFocusedElement.focus();
     };
 
     galleryItems.forEach((item) => {
@@ -1828,8 +1728,20 @@
     });
 
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && lightbox.classList.contains('open')) {
-        closeModal();
+      if (event.key === 'Escape') {
+        if (lightbox.classList.contains('open')) closeModal();
+        if (navLinks.classList.contains('is-open')) {
+          navLinks.classList.remove('is-open');
+          navToggle.setAttribute('aria-expanded', 'false');
+          navToggle.setAttribute('aria-label', 'Abrir menú');
+          navToggle.textContent = '☰';
+          navToggle.focus();
+        }
+      }
+
+      if (event.key === 'Tab' && lightbox.classList.contains('open')) {
+        event.preventDefault();
+        closeLightbox.focus();
       }
     });
   </script>
